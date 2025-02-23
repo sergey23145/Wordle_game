@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Darker text */
+}
+
+h1 {
+    color: #555; /* Slightly darker heading */
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc; /* Softer border */
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: #fff; /* White squares */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.green {
+    background-color: #6ca965; /* Muted green */
+    color: white;
+    border: none;
+}
+
+.yellow {
+    background-color: #f4c247; /* Muted yellow */
+    color: #333;
+    border: none;
+}
+
+.grey {
+    background-color: #787c7e; /* Light grey */
+    color: white;
+    border: none;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid #ddd; /* Lighter key borders */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #e0e0e0; /* Lighter keys */
+    border-radius: 5px;
+    color: #444;
+    transition: background-color 0.3s;
+}
+
+.key:hover {
+    background-color: #d0d0d0; /* Darker hover */
+}
+
+.key.green {
+    background-color: #6ca965; /* Green key */
+    color: white;
+    border: none;
+}
+
+.key.yellow {
+    background-color: #f4c247; /* Yellow key */
+    color: #333;
+    border: none;
+}
+
+.key.grey {
+    background-color: #787c7e; /* Grey key */
+    color: white;
+    border: none;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#resetButton:hover {
+    background-color: #45a049;
+}
